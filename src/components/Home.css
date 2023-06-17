@@ -1,0 +1,576 @@
+::-webkit-scrollbar {
+    display: none;
+}
+.bg_section_container{
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/background.png");
+ 
+   
+    background-size:cover;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.pl-80{
+    padding-left: 80px !important;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.bg_section_container .bg_section_wrapper{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0px 40px ;
+}
+.bg_section_container .content_wrapper{
+    padding-top: 120px;
+ 
+}
+.bg_section_container .content_wrapper h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+.bg_section_container .content_wrapper .desc{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+.bg_section_container .content_wrapper .get_quote_btn{
+  border-style:none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  background-color: #FFA62B;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.bg_section_container .content_wrapper .learn_mre_btn{
+    border-style:solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 25px;
+    padding: 10px 25px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+.white_section{
+    width: 100%;
+    padding: 50px ;
+    background-color: white;
+}
+.bg_section_container .counter_card{
+    width: 75%;
+    padding: 10px;
+    background-color: transparent;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    margin-bottom: -50px;
+}
+.bg_section_container .counter_card .counter_tag{
+    background-color: white;
+}
+
+.bg_section_container .counter_card .counter_content{
+padding-right: 10px;
+
+
+}
+.bg_section_container .counter_card .counter_content .count{
+    font-size: 17px;
+    font-weight: 700;
+    color: black;
+    }
+.bg_section_container .counter_card .counter_content .count_tag{
+        font-size: 15px;
+        font-weight: 500;
+        color: #737373;
+        }  
+        
+ .third_section{
+    background-color: #FAFAFA;
+    padding: 80px 50px;
+ }   
+ .third_section  .cards_sect{
+    width: 75%;
+ }
+ .third_section .service_card{
+    background-color: #ffff;
+    padding: 15px 25px;
+ }
+ .third_section .service_card .title{
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+ }
+ .third_section .service_card .desc{
+    font-size: 13px;
+    font-weight: 500;
+    color: #737373;
+
+ }
+ .third_section .service_card .more_btn{
+  background-color: transparent;
+  border-style: solid;
+  border-radius: 25px;
+  border-width: 1px;
+  border-color:#00A0C1 ;
+  color: #00A0C1;
+  padding: 10px 25px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+ .third_section .service_card_last{
+    background-color: #252B42;
+    padding: 15px 25px;
+ }
+ .third_section  .service_card_last .more_btn_last{
+    background-color: white;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 1px;
+    border-color:white ;
+    color: #FFA62B;
+    padding: 10px 25px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   }
+   .third_section .service_card_last .title{
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+ }
+ .third_section .service_card_last .desc{
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+
+ }
+ .third_section .content_wrapper h1{
+    text-align: center;
+    color: #252B42;
+ }
+ .third_section .content_wrapper{
+    padding: 100px 20px;
+ }
+ .third_section .content_wrapper .desc{
+  color:#737373;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+ }
+ .third_section .description{
+    font-size: 13px;
+    color:#737373;
+    font-weight: 400;
+
+ }
+.third_section .service_desc img {
+ width: 32px;
+ height: 32px;
+}
+.third_section .service_desc .title {
+ font-size: 15px;
+ font-weight: 700;
+ color: #252B42;
+   }
+.third_section .service_desc .desc {
+    font-size: 13px;
+    color:#737373;
+    font-weight: 400;
+   }
+.fourth_sect{
+    background-color: #16697A;
+    padding: 80px 0px;
+}
+.fourth_sect h2{
+ color: white;
+
+}
+.fourth_sect .desc{
+    font-size: 15px;
+    color:white;
+    font-weight: 400;
+    text-align: center;
+}
+.fourth_sect .client_card{
+    background-color: white;
+    padding: 30px 60px ;
+    position: relative;
+    width: 95%;
+}
+.fourth_sect .client_card .card_title{
+  font-size: 21px;
+  font-weight: 700;
+ 
+  color: #252B42;
+}
+.fourth_sect .client_card .postion{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color:#737373;
+  }
+.fourth_sect .client_card .card_desc{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #737373;
+  }
+  .slider {
+    flex-wrap: nowrap!important;
+    display: flex;
+    flex-direction: row;
+    overflow-y:scroll;
+    
+  }
+  .p-relative{
+    position: relative;
+  }
+  .fourth_sect .profile_img{
+    position: absolute;
+    top: 20px;
+    left: -55px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+
+  }
+  .fifth_sect{
+    padding: 80px 0px;
+    background-color: #FAFAFA;
+  }
+  .fifth_sect h2{
+    color: #252B42;
+  }
+  .fifth_sect .desc{
+    font-size: 15px;
+    color:#737373;
+    font-weight: 400;
+    text-align: center;
+}
+.fifth_sect .profile_card{
+    background-color: white;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fifth_sect .profile_card .profile_circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.fifth_sect .profile_card .title{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+/* primary-color */
+
+color: #FFA62B;
+margin-bottom: 10px;
+}
+.fifth_sect .profile_card .postion{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: 0.1px;
+
+/* text-color */
+
+color: #252B42;
+margin-bottom: 10px;
+}
+.fifth_sect .profile_card .desc{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+/* second-text-color */
+
+color: #737373;
+}
+.sixth_sect{
+    background-color:#252B42 ;
+    padding: 100px 50px 428px;
+}
+
+ .sixth_sect h1{
+    color: white;
+    margin-bottom: 25px;
+ }
+ .sixth_sect .all-wrapper{
+    width: 75%;
+ }
+ .sixth_sect .desc{
+ 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    
+   
+    letter-spacing: 0.2px;
+    
+    /* second-text-color */
+    
+    color: white; 
+ }
+ .seven_sect{
+background-color: #FAFAFA;
+padding: 100px 50px;
+ }
+ .seven_sect .all-wrapper{
+    width: 75%;
+ }
+ .seven_sect .form_container{
+    background-color: #FFFFFF;
+    padding: 20px 50px;
+    height: 100%;
+ }
+ .seven_sect .label{
+    color: #252B42;
+    font-size: 15px;
+    font-weight: 500;
+ }
+ .seven_sect input{
+    width: 100%;
+    background: #F9F9F9;
+/* muted-color */
+padding: 10px 10px;
+border: 1px solid #BDBDBD;
+border-radius: 5px;
+margin-bottom: 10px;
+ }
+ .seven_sect select{
+    width: 100%;
+    background: #F9F9F9;
+/* muted-color */
+padding: 10px 10px;
+border: 1px solid #BDBDBD;
+border-radius: 5px;
+margin-bottom: 10px;
+ }
+ .seven_sect .quote_btn{
+    
+/* primary-color */
+border-style: none;
+width: 100%;
+padding: 10px 0px;
+background: #FFA62B;
+border-radius: 5px;
+display: flex;
+color: white;
+justify-content: center;
+align-items: center;
+ }
+ .seven_sect .quote_form{
+    margin-top: -450px;
+ }
+ .footer{
+    background-color:  #FFFFFF;
+    padding: 80px 50px; 
+ }
+ .footer .all-wrapper{
+    width: 75%;
+ }
+ .footer .title{
+    font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.1px;
+
+/* text-color */
+
+color: #252B42;
+margin-bottom: 25px;
+cursor: pointer;
+ }
+ .footer .desc{
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+letter-spacing: 0.2px;
+
+/* second-text-color */
+
+color: #737373;
+cursor: pointer;
+margin-bottom: 25px;
+
+ }
+ .footer .menu_item{
+    font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+letter-spacing: 0.2px;
+cursor: pointer;
+/* second-text-color */
+margin-bottom: 10px;
+color: #737373;
+ }
+ .copy_right_sect{
+    background-color: #FAFAFA;
+    padding: 25px 0px;
+ }
+ .copy_right_sect .copy_right_text{
+    font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+letter-spacing: 0.2px;
+
+/* second-text-color */
+text-align: center;
+color: #737373;
+ }
+ @media screen and (max-width: 800px) {
+.third_section{
+    padding: 80px 10px;
+}
+.service_card{
+    margin-bottom: 15px;
+}
+.pl-80{
+    padding-left: 0px !important;
+}
+.cards_sect{
+    width: 100% !important;
+}
+.cards_sect .img-fluid{
+    margin-bottom: 15px;
+}
+.fourth_sect{
+    padding: 80px 20px;
+}
+.client_card{
+    padding: 10px 10px 10px 30px !important;
+    width: 100% !important;
+    margin-bottom: 15px !important;
+}
+.slider {
+    flex-wrap: wrap!important;
+    display: block !important;
+ 
+    
+    
+  }
+  .fourth_sect .profile_img{
+    position: absolute;
+    top: 20px;
+    left: -45px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+
+  }
+  .profile_card{
+    margin-bottom: 15px !important;
+  }
+  .sixth_sect{
+    padding: 100px 10px 100px 10px !important;
+  }
+  .sixth_sect .all-wrapper{
+    width: 100%;
+  }
+  
+.seven_sect{
+    padding: 20px 00px 20px 0px;
+}
+.seven_sect .quote_form {
+    margin-top: 0px !important;
+}
+.seven_sect .all-wrapper{
+    width: 100%;
+}
+.footer{
+    padding: 30px 10px !important;
+}
+.footer .all-wrapper{
+    width: 100% !important;
+}
+.counter_card{
+    margin-bottom:0px  !important;
+
+}
+.white_section{
+   
+    display:none !important;
+}
+.bg_section_container .bg_section_wrapper{
+
+    padding: 0px 0px !important ;
+}
+
+.btn_wrapper{
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: center;
+}
+
+.counter_tag{
+    padding: 15px !important;
+    margin-bottom: 15px;
+}
+.profile_card{
+    padding: 5px !important;
+}
+  }
+  @media screen and (max-width: 300px) {
+    .get_quote_btn{
+        margin-bottom: 10px;
+        }
+  }
